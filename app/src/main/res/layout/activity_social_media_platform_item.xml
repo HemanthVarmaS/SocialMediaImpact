@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".view.SocialMediaPlatformItem">
+
+    <TextView
+        android:id="@+id/txt_smp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txt_smp_year_founded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2005"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/txt_smp_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All media"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/txt_smp_addiction_impact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="high"
+        android:textSize="20sp"
+        />
+
+
+
+</LinearLayout>
